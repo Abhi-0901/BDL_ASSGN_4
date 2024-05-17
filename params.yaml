@@ -1,0 +1,17 @@
+data_source:
+  base_url: "https://www.ncei.noaa.gov/data/local-climatological-data/access/"
+  year: 2023
+  output: /home/koushik/Downloads/BDL_4/Climate_dataset{year}.html
+  temp_dir: /home/koushik/Downloads/BDL_4/data
+  max_files: 3
+  local: /home/koushik/Downloads/BDL_4/
+
+data_prepare:
+  dest_folder: /home/koushik/Downloads/BDL_4/prepare_data
+
+data_process:
+  dest_folder: /home/koushik/Downloads/BDL_4/process_data
+
+evaluate:
+  output: /home/koushik/Downloads/BDL_4/output
+
